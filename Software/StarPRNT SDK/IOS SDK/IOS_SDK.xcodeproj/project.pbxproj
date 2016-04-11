@@ -1,0 +1,1047 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00374D1215DE075E004A4D86 /* SearchPrinterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00374D1115DE075E004A4D86 /* SearchPrinterViewController.xib */; };
+		0040E11B16A8E23A004066CB /* rasterPrinting~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0040E0FD16A8DF3A004066CB /* rasterPrinting~ipad.xib */; };
+		0040E12716A8ECC8004066CB /* JpKnjFormating~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0040E0EC16A8DF3A004066CB /* JpKnjFormating~ipad.xib */; };
+		0040E12816A8ECCC004066CB /* JpKnjFormatingMini~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0040E0ED16A8DF3A004066CB /* JpKnjFormatingMini~ipad.xib */; };
+		0040E12916A8ECD1004066CB /* TextFormating~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0040E0F316A8DF3A004066CB /* TextFormating~ipad.xib */; };
+		0040E12A16A8ECD5004066CB /* TextFormatingMini~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0040E0F416A8DF3A004066CB /* TextFormatingMini~ipad.xib */; };
+		007D434C15DDE10800482BD3 /* SearchPrinterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007D434A15DDE10800482BD3 /* SearchPrinterViewController.m */; };
+		009184DE15B945710000A634 /* BarcodeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 009184D915B945700000A634 /* BarcodeSelector.m */; };
+		009184DF15B945710000A634 /* BarcodeSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009184DA15B945700000A634 /* BarcodeSelector.xib */; };
+		009184E015B945710000A634 /* BarcodeSelector2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 009184DC15B945700000A634 /* BarcodeSelector2D.m */; };
+		0092234615B4EFE200D92768 /* IOS_SDKViewControllerLineMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092233E15B4EFE200D92768 /* IOS_SDKViewControllerLineMode.m */; };
+		0092234715B4EFE200D92768 /* IOS_SDKViewControllerLineMode.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0092233F15B4EFE200D92768 /* IOS_SDKViewControllerLineMode.xib */; };
+		0092234815B4EFE200D92768 /* IOS_SDKViewControllerPortable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092234115B4EFE200D92768 /* IOS_SDKViewControllerPortable.m */; };
+		0092234915B4EFE200D92768 /* IOS_SDKViewControllerPortable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0092234215B4EFE200D92768 /* IOS_SDKViewControllerPortable.xib */; };
+		0092234A15B4EFE200D92768 /* IOS_SDKViewControllerRasterMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092234415B4EFE200D92768 /* IOS_SDKViewControllerRasterMode.m */; };
+		0092234B15B4EFE200D92768 /* IOS_SDKViewControllerRasterMode.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0092234515B4EFE200D92768 /* IOS_SDKViewControllerRasterMode.xib */; };
+		0092474215AFD86400D6A871 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0092474115AFD86400D6A871 /* UIKit.framework */; };
+		0092474415AFD86400D6A871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0092474315AFD86400D6A871 /* Foundation.framework */; };
+		0092474615AFD86400D6A871 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0092474515AFD86400D6A871 /* CoreGraphics.framework */; };
+		0092474C15AFD86400D6A871 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0092474A15AFD86400D6A871 /* InfoPlist.strings */; };
+		0092474E15AFD86400D6A871 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092474D15AFD86400D6A871 /* main.m */; };
+		0092475215AFD86400D6A871 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092475115AFD86400D6A871 /* AppDelegate.m */; };
+		0092475515AFD86400D6A871 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092475415AFD86400D6A871 /* ViewController.m */; };
+		0092475815AFD86400D6A871 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0092475615AFD86400D6A871 /* ViewController.xib */; };
+		0092476915AFDB6000D6A871 /* BarcodePrintingMini.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092475F15AFDB6000D6A871 /* BarcodePrintingMini.m */; };
+		0092476A15AFDB6000D6A871 /* BarcodePrintingMini.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0092476015AFDB6000D6A871 /* BarcodePrintingMini.xib */; };
+		0092476E15AFDB6000D6A871 /* code39.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0092476615AFDB6000D6A871 /* code39.gif */; };
+		0092476F15AFDB6000D6A871 /* code39.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092476815AFDB6000D6A871 /* code39.m */; };
+		0092477C15AFDB7700D6A871 /* code39.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0092477015AFDB7700D6A871 /* code39.xib */; };
+		0092477D15AFDB7700D6A871 /* code93.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0092477115AFDB7700D6A871 /* code93.gif */; };
+		0092477E15AFDB7700D6A871 /* code93.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092477315AFDB7700D6A871 /* code93.m */; };
+		0092477F15AFDB7700D6A871 /* code93.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0092477415AFDB7700D6A871 /* code93.xib */; };
+		0092478015AFDB7700D6A871 /* code128.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0092477515AFDB7700D6A871 /* code128.gif */; };
+		0092478115AFDB7700D6A871 /* code128.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092477715AFDB7700D6A871 /* code128.m */; };
+		0092478215AFDB7700D6A871 /* code128.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0092477815AFDB7700D6A871 /* code128.xib */; };
+		0092478315AFDB7700D6A871 /* Cut.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092477A15AFDB7700D6A871 /* Cut.m */; };
+		0092478415AFDB7700D6A871 /* Cut.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0092477B15AFDB7700D6A871 /* Cut.xib */; };
+		0092479415AFDB9100D6A871 /* itf.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0092478815AFDB9100D6A871 /* itf.gif */; };
+		0092479515AFDB9100D6A871 /* ITF.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092478A15AFDB9100D6A871 /* ITF.m */; };
+		0092479615AFDB9100D6A871 /* ITF.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0092478B15AFDB9100D6A871 /* ITF.xib */; };
+		0092479715AFDB9100D6A871 /* JpKnjFormating.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092478D15AFDB9100D6A871 /* JpKnjFormating.m */; };
+		0092479815AFDB9100D6A871 /* JpKnjFormating.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0092478E15AFDB9100D6A871 /* JpKnjFormating.xib */; };
+		0092479915AFDB9100D6A871 /* JpKnjFormatingMini.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092479015AFDB9100D6A871 /* JpKnjFormatingMini.m */; };
+		0092479A15AFDB9100D6A871 /* JpKnjFormatingMini.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0092479115AFDB9100D6A871 /* JpKnjFormatingMini.xib */; };
+		009247A615AFDBAB00D6A871 /* MiniPrinterFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092479C15AFDBAB00D6A871 /* MiniPrinterFunctions.m */; };
+		009247A715AFDBAB00D6A871 /* pdf417.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0092479D15AFDBAB00D6A871 /* pdf417.gif */; };
+		009247A815AFDBAB00D6A871 /* PDF417.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092479F15AFDBAB00D6A871 /* PDF417.m */; };
+		009247A915AFDBAB00D6A871 /* PDF417.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009247A015AFDBAB00D6A871 /* PDF417.xib */; };
+		009247AA15AFDBAB00D6A871 /* PDF417mini.m in Sources */ = {isa = PBXBuildFile; fileRef = 009247A215AFDBAB00D6A871 /* PDF417mini.m */; };
+		009247AB15AFDBAB00D6A871 /* PDF417mini.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009247A315AFDBAB00D6A871 /* PDF417mini.xib */; };
+		009247C615AFDBCD00D6A871 /* PrinterFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 009247AE15AFDBCD00D6A871 /* PrinterFunctions.m */; };
+		009247C715AFDBCD00D6A871 /* qrcode.gif in Resources */ = {isa = PBXBuildFile; fileRef = 009247AF15AFDBCD00D6A871 /* qrcode.gif */; };
+		009247C815AFDBCD00D6A871 /* QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 009247B115AFDBCD00D6A871 /* QRCode.m */; };
+		009247C915AFDBCD00D6A871 /* QRCode.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009247B215AFDBCD00D6A871 /* QRCode.xib */; };
+		009247CA15AFDBCD00D6A871 /* QRCodeMini.m in Sources */ = {isa = PBXBuildFile; fileRef = 009247B415AFDBCD00D6A871 /* QRCodeMini.m */; };
+		009247CB15AFDBCD00D6A871 /* QRCodeMini.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009247B515AFDBCD00D6A871 /* QRCodeMini.xib */; };
+		009247CC15AFDBCD00D6A871 /* RasterDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 009247B715AFDBCD00D6A871 /* RasterDocument.m */; };
+		009247CF15AFDBCD00D6A871 /* StandardHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 009247BC15AFDBCD00D6A871 /* StandardHelp.m */; };
+		009247D015AFDBCD00D6A871 /* StandardHelp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009247BD15AFDBCD00D6A871 /* StandardHelp.xib */; };
+		009247D115AFDBCD00D6A871 /* StarBitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 009247BF15AFDBCD00D6A871 /* StarBitmap.m */; };
+		009247D215AFDBCD00D6A871 /* TextFormating.m in Sources */ = {isa = PBXBuildFile; fileRef = 009247C115AFDBCD00D6A871 /* TextFormating.m */; };
+		009247D315AFDBCD00D6A871 /* TextFormating.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009247C215AFDBCD00D6A871 /* TextFormating.xib */; };
+		009247D415AFDBCD00D6A871 /* TextFormatingMini.m in Sources */ = {isa = PBXBuildFile; fileRef = 009247C415AFDBCD00D6A871 /* TextFormatingMini.m */; };
+		009247D515AFDBCD00D6A871 /* TextFormatingMini.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009247C515AFDBCD00D6A871 /* TextFormatingMini.xib */; };
+		009247DC15AFDD3C00D6A871 /* StarIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009247DB15AFDD3C00D6A871 /* StarIO.framework */; };
+		009247E215AFEDC000D6A871 /* ViewControllerEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 009247E015AFEDBF00D6A871 /* ViewControllerEx.m */; };
+		009247E315AFEDC000D6A871 /* ViewControllerEx.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009247E115AFEDC000D6A871 /* ViewControllerEx.xib */; };
+		00C8CFF116A66075000B178A /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C8CFEE16A66072000B178A /* AbstractActionSheetPicker.m */; };
+		00C8CFF216A66075000B178A /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C8CFF016A66074000B178A /* ActionSheetStringPicker.m */; };
+		00DDFF8715BA1B7F002E6973 /* rasterPrinting.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DDFF8515BA1B7F002E6973 /* rasterPrinting.m */; };
+		2833747719B00B2000359ABD /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2833747319B00B2000359ABD /* image1.png */; };
+		2833747919B00B2000359ABD /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2833747419B00B2000359ABD /* image2.jpg */; };
+		2833747B19B00B2000359ABD /* image3.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 2833747519B00B2000359ABD /* image3.bmp */; };
+		2833747D19B00B2000359ABD /* image4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2833747619B00B2000359ABD /* image4.gif */; };
+		8823DB9C17617E5A00DBAEE9 /* IOS_SDKViewControllerDKAirCash.m in Sources */ = {isa = PBXBuildFile; fileRef = 8823DB9A17617E5A00DBAEE9 /* IOS_SDKViewControllerDKAirCash.m */; };
+		8823DB9D17617E5A00DBAEE9 /* IOS_SDKViewControllerDKAirCash.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8823DB9B17617E5A00DBAEE9 /* IOS_SDKViewControllerDKAirCash.xib */; };
+		8843AC3B1AA400FC00327101 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8843AC3A1AA400FC00327101 /* Images.xcassets */; };
+		885525F519A47EE600D24C50 /* ImageFilePrintingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 885525F319A47EE600D24C50 /* ImageFilePrintingViewController.m */; };
+		885525F719A47EE600D24C50 /* ImageFilePrintingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 885525F419A47EE600D24C50 /* ImageFilePrintingViewController.xib */; };
+		8858F7E51818DC7700F9BAE1 /* BluetoothSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8858F7E31818DC7700F9BAE1 /* BluetoothSettingViewController.m */; };
+		8858F7E61818DC7700F9BAE1 /* BluetoothSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8858F7E41818DC7700F9BAE1 /* BluetoothSettingViewController.xib */; };
+		885B062719DE8FC9003D1C46 /* 1D_barcode.gif in Resources */ = {isa = PBXBuildFile; fileRef = 885B062619DE8FC9003D1C46 /* 1D_barcode.gif */; };
+		886189FE19A70B3400DC5957 /* SimplifiedChineseTextFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 886189FD19A70B3400DC5957 /* SimplifiedChineseTextFormatting.m */; };
+		88618A0219A7107900DC5957 /* TraditionalChineseTextFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 88618A0119A7107900DC5957 /* TraditionalChineseTextFormatting.m */; };
+		88618A0719A7138600DC5957 /* TextFormattingDotMatrixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88618A0519A7138600DC5957 /* TextFormattingDotMatrixViewController.m */; };
+		88618A0919A7138600DC5957 /* TextFormattingDotMatrixViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88618A0619A7138600DC5957 /* TextFormattingDotMatrixViewController.xib */; };
+		88618A0D19A72B7600DC5957 /* JpKnjFormattingDotMatrixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88618A0C19A72B7600DC5957 /* JpKnjFormattingDotMatrixViewController.m */; };
+		88618A1119A7369C00DC5957 /* SimplifiedTextFormattingDotMatrixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88618A1019A7369C00DC5957 /* SimplifiedTextFormattingDotMatrixViewController.m */; };
+		88618A1519A73B2B00DC5957 /* TraditionalChineseFormattingDotMatrixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88618A1419A73B2B00DC5957 /* TraditionalChineseFormattingDotMatrixViewController.m */; };
+		88618A1919A73C0600DC5957 /* SelectDotMatrixTextFormattingLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88618A1819A73C0600DC5957 /* SelectDotMatrixTextFormattingLanguageViewController.m */; };
+		886A5B2C19FF4F4400A3616F /* SelectEmulationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 886A5B2A19FF4F4400A3616F /* SelectEmulationViewController.m */; };
+		886A5B2E19FF4F4400A3616F /* SelectEmulationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886A5B2B19FF4F4400A3616F /* SelectEmulationViewController.xib */; };
+		886A5B3D19FF717000A3616F /* IOS_SDKViewControllerPortableStarLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 886A5B3C19FF717000A3616F /* IOS_SDKViewControllerPortableStarLine.m */; };
+		886A5B4119FF77C600A3616F /* IOS_SDKViewControllerPortableStarRaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 886A5B4019FF77C600A3616F /* IOS_SDKViewControllerPortableStarRaster.m */; };
+		887CABC11AA0273700AD4E06 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887CABC01AA0273700AD4E06 /* Launch Screen.xib */; };
+		888B317518A2565300F34AAE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888B317418A2565300F34AAE /* QuartzCore.framework */; };
+		888EF5D41A3A7B3600A63030 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888EF5D31A3A7B3600A63030 /* CoreBluetooth.framework */; };
+		8895E2B31A9C0A46005B1CA6 /* Background_PortablePrinter.png in Resources */ = {isa = PBXBuildFile; fileRef = 8895E2B21A9C0A46005B1CA6 /* Background_PortablePrinter.png */; };
+		8899459A19AAD9100099984A /* ImageFilePrintingMiniViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8899459919AAD9100099984A /* ImageFilePrintingMiniViewController.m */; };
+		88A3ECC2163792DD0007D57E /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A3ECC1163792DD0007D57E /* ExternalAccessory.framework */; };
+		88A969A616C0CD100021C88D /* rasterPrinting.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A969A816C0CD100021C88D /* rasterPrinting.xib */; };
+		88AF1F271638CFD900E66761 /* CheckConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AF1F251638CFD900E66761 /* CheckConnectionViewController.m */; };
+		88AF1F281638CFD900E66761 /* CheckConnectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88AF1F261638CFD900E66761 /* CheckConnectionViewController.xib */; };
+		88D4840D1A01B60800968625 /* SelectPortableLineTextFormattingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D4840C1A01B60800968625 /* SelectPortableLineTextFormattingViewController.m */; };
+		88D484111A01C0F400968625 /* SelectPortableRasterSampleReceiptLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D484101A01C0F400968625 /* SelectPortableRasterSampleReceiptLanguageViewController.m */; };
+		88D607F81A00ABBB00F88EFD /* SelectPortableLineSampleReceiptLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D607F71A00ABBB00F88EFD /* SelectPortableLineSampleReceiptLanguageViewController.m */; };
+		88DB43A91C7EE5D200F31061 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DB43A81C7EE5D200F31061 /* CoreImage.framework */; };
+		88E51BE117796DA6003CB9BB /* CommonTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E51BDF17796DA6003CB9BB /* CommonTableView.m */; };
+		88E51BE217796DA6003CB9BB /* CommonTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88E51BE017796DA6003CB9BB /* CommonTableView.xib */; };
+		88E51BE517799168003CB9BB /* DKAirCashFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E51BE417799167003CB9BB /* DKAirCashFunctions.m */; };
+		88E7DDBC19A5878B0004F706 /* IOS_SDKViewControllerImpactDotMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E7DDBA19A5878B0004F706 /* IOS_SDKViewControllerImpactDotMatrix.m */; };
+		88E7DDBE19A5878B0004F706 /* IOS_SDKViewControllerImpactDotMatrix.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88E7DDBB19A5878B0004F706 /* IOS_SDKViewControllerImpactDotMatrix.xib */; };
+		88E7DDC319A587BB0004F706 /* SelectLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E7DDC119A587BB0004F706 /* SelectLanguageViewController.m */; };
+		88E7DDC519A587BB0004F706 /* SelectLanguageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88E7DDC219A587BB0004F706 /* SelectLanguageViewController.xib */; };
+		88E7DDC919A5B5230004F706 /* SelectDesktopLineSampleReceiptLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E7DDC819A5B5230004F706 /* SelectDesktopLineSampleReceiptLanguageViewController.m */; };
+		88E7DDCD19A5C8620004F706 /* SelectDesktopTextFormattingLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E7DDCC19A5C8620004F706 /* SelectDesktopTextFormattingLanguageViewController.m */; };
+		88E7DDD119A5D0ED0004F706 /* SelectPortableSampleReceiptLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E7DDD019A5D0ED0004F706 /* SelectPortableSampleReceiptLanguageViewController.m */; };
+		88E7DDD519A5D4D50004F706 /* SelectDesktopRasterSampleReceiptLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E7DDD419A5D4D50004F706 /* SelectDesktopRasterSampleReceiptLanguageViewController.m */; };
+		88E7DDD919A5E57F0004F706 /* SelectDotMatrixSampleReceiptLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E7DDD819A5E57F0004F706 /* SelectDotMatrixSampleReceiptLanguageViewController.m */; };
+		88E8ACAF19AD9EAA00EF682A /* DotPrinterFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E8ACAE19AD9EAA00EF682A /* DotPrinterFunctions.m */; };
+		88FA28661C7A8ECD00B792E9 /* SMCloudServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FA28651C7A8ECD00B792E9 /* SMCloudServices.framework */; };
+		88FA28681C7A8F0100B792E9 /* SMCloudServicesResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 88FA28671C7A8F0100B792E9 /* SMCloudServicesResources.bundle */; };
+		88FA286C1C7A979F00B792E9 /* AllReceiptsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FA286A1C7A979F00B792E9 /* AllReceiptsViewController.m */; };
+		88FA28711C7A9F2600B792E9 /* StarIO_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FA28701C7A9F2600B792E9 /* StarIO_Extension.framework */; };
+		BA932D0616C3BEFA00AF9572 /* Background_Top.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BA932D0516C3BEFA00AF9572 /* Background_Top.JPG */; };
+		BA932D0816C3BF0C00AF9572 /* Background_DesktopPrinter.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BA932D0716C3BF0C00AF9572 /* Background_DesktopPrinter.JPG */; };
+		DBAF4FC11B53555B00E56A36 /* IOS_SDKViewControllerProxiPRNT.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF4FB51B53555B00E56A36 /* IOS_SDKViewControllerProxiPRNT.m */; };
+		DBAF4FC21B53555B00E56A36 /* IOS_SDKViewControllerProxiPRNT.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBAF4FB61B53555B00E56A36 /* IOS_SDKViewControllerProxiPRNT.xib */; };
+		DBAF4FC31B53555B00E56A36 /* ProxiPRNTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF4FB81B53555B00E56A36 /* ProxiPRNTCell.m */; };
+		DBAF4FC41B53555B00E56A36 /* ProxiPRNTSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF4FBA1B53555B00E56A36 /* ProxiPRNTSettingManager.m */; };
+		DBAF4FC51B53555B00E56A36 /* SelectDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF4FBC1B53555B00E56A36 /* SelectDeviceViewController.m */; };
+		DBAF4FC61B53555B00E56A36 /* SelectDeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBAF4FBD1B53555B00E56A36 /* SelectDeviceViewController.xib */; };
+		DBAF4FC71B53555B00E56A36 /* ThresholdSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAF4FBF1B53555B00E56A36 /* ThresholdSettingViewController.m */; };
+		DBAF4FC81B53555B00E56A36 /* ThresholdSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBAF4FC01B53555B00E56A36 /* ThresholdSettingViewController.xib */; };
+		DBAF4FCB1B53556B00E56A36 /* ProxiPRNTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBAF4FC91B53556B00E56A36 /* ProxiPRNTCell.xib */; };
+		DBBF07911B41090500F6CEBF /* SelectDesktopLineSampleReceiptUtf8LanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBF07901B41090500F6CEBF /* SelectDesktopLineSampleReceiptUtf8LanguageViewController.m */; };
+		DBBF07941B41341500F6CEBF /* Utf8TextFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBF07931B41341500F6CEBF /* Utf8TextFormatting.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00374D1115DE075E004A4D86 /* SearchPrinterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchPrinterViewController.xib; sourceTree = "<group>"; };
+		0040E0EC16A8DF3A004066CB /* JpKnjFormating~ipad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "JpKnjFormating~ipad.xib"; path = "IOS_SDK/iPad_xib/JpKnjFormating~ipad.xib"; sourceTree = "<group>"; };
+		0040E0ED16A8DF3A004066CB /* JpKnjFormatingMini~ipad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "JpKnjFormatingMini~ipad.xib"; path = "IOS_SDK/iPad_xib/JpKnjFormatingMini~ipad.xib"; sourceTree = "<group>"; };
+		0040E0F316A8DF3A004066CB /* TextFormating~ipad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "TextFormating~ipad.xib"; path = "IOS_SDK/iPad_xib/TextFormating~ipad.xib"; sourceTree = "<group>"; };
+		0040E0F416A8DF3A004066CB /* TextFormatingMini~ipad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "TextFormatingMini~ipad.xib"; path = "IOS_SDK/iPad_xib/TextFormatingMini~ipad.xib"; sourceTree = "<group>"; };
+		0040E0FD16A8DF3A004066CB /* rasterPrinting~ipad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "rasterPrinting~ipad.xib"; path = "IOS_SDK/iPad_xib/rasterPrinting~ipad.xib"; sourceTree = "<group>"; };
+		007D434915DDE10800482BD3 /* SearchPrinterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchPrinterViewController.h; sourceTree = "<group>"; };
+		007D434A15DDE10800482BD3 /* SearchPrinterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchPrinterViewController.m; sourceTree = "<group>"; };
+		009184D815B9456F0000A634 /* BarcodeSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeSelector.h; sourceTree = "<group>"; };
+		009184D915B945700000A634 /* BarcodeSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodeSelector.m; sourceTree = "<group>"; };
+		009184DA15B945700000A634 /* BarcodeSelector.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BarcodeSelector.xib; sourceTree = "<group>"; };
+		009184DB15B945700000A634 /* BarcodeSelector2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeSelector2D.h; sourceTree = "<group>"; };
+		009184DC15B945700000A634 /* BarcodeSelector2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodeSelector2D.m; sourceTree = "<group>"; };
+		0092233D15B4EFE200D92768 /* IOS_SDKViewControllerLineMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOS_SDKViewControllerLineMode.h; sourceTree = "<group>"; };
+		0092233E15B4EFE200D92768 /* IOS_SDKViewControllerLineMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOS_SDKViewControllerLineMode.m; sourceTree = "<group>"; };
+		0092233F15B4EFE200D92768 /* IOS_SDKViewControllerLineMode.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IOS_SDKViewControllerLineMode.xib; sourceTree = "<group>"; };
+		0092234015B4EFE200D92768 /* IOS_SDKViewControllerPortable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOS_SDKViewControllerPortable.h; sourceTree = "<group>"; };
+		0092234115B4EFE200D92768 /* IOS_SDKViewControllerPortable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOS_SDKViewControllerPortable.m; sourceTree = "<group>"; };
+		0092234215B4EFE200D92768 /* IOS_SDKViewControllerPortable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IOS_SDKViewControllerPortable.xib; sourceTree = "<group>"; };
+		0092234315B4EFE200D92768 /* IOS_SDKViewControllerRasterMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOS_SDKViewControllerRasterMode.h; sourceTree = "<group>"; };
+		0092234415B4EFE200D92768 /* IOS_SDKViewControllerRasterMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOS_SDKViewControllerRasterMode.m; sourceTree = "<group>"; };
+		0092234515B4EFE200D92768 /* IOS_SDKViewControllerRasterMode.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IOS_SDKViewControllerRasterMode.xib; sourceTree = "<group>"; };
+		0092473D15AFD86400D6A871 /* StarIO SDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarIO SDK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0092474115AFD86400D6A871 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0092474315AFD86400D6A871 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0092474515AFD86400D6A871 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0092474915AFD86400D6A871 /* IOS_SDK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOS_SDK-Info.plist"; sourceTree = "<group>"; };
+		0092474B15AFD86400D6A871 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0092474D15AFD86400D6A871 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0092474F15AFD86400D6A871 /* IOS_SDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOS_SDK-Prefix.pch"; sourceTree = "<group>"; };
+		0092475015AFD86400D6A871 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0092475115AFD86400D6A871 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0092475315AFD86400D6A871 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0092475415AFD86400D6A871 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0092475715AFD86400D6A871 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0092475E15AFDB6000D6A871 /* BarcodePrintingMini.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodePrintingMini.h; sourceTree = "<group>"; };
+		0092475F15AFDB6000D6A871 /* BarcodePrintingMini.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodePrintingMini.m; sourceTree = "<group>"; };
+		0092476015AFDB6000D6A871 /* BarcodePrintingMini.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BarcodePrintingMini.xib; sourceTree = "<group>"; };
+		0092476615AFDB6000D6A871 /* code39.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = code39.gif; path = IOS_SDK/code39.gif; sourceTree = "<group>"; };
+		0092476715AFDB6000D6A871 /* code39.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = code39.h; sourceTree = "<group>"; };
+		0092476815AFDB6000D6A871 /* code39.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = code39.m; sourceTree = "<group>"; };
+		0092477015AFDB7700D6A871 /* code39.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = code39.xib; sourceTree = "<group>"; };
+		0092477115AFDB7700D6A871 /* code93.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = code93.gif; path = IOS_SDK/code93.gif; sourceTree = "<group>"; };
+		0092477215AFDB7700D6A871 /* code93.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = code93.h; sourceTree = "<group>"; };
+		0092477315AFDB7700D6A871 /* code93.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = code93.m; sourceTree = "<group>"; };
+		0092477415AFDB7700D6A871 /* code93.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = code93.xib; sourceTree = "<group>"; };
+		0092477515AFDB7700D6A871 /* code128.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = code128.gif; path = IOS_SDK/code128.gif; sourceTree = "<group>"; };
+		0092477615AFDB7700D6A871 /* code128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = code128.h; sourceTree = "<group>"; };
+		0092477715AFDB7700D6A871 /* code128.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = code128.m; sourceTree = "<group>"; };
+		0092477815AFDB7700D6A871 /* code128.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = code128.xib; sourceTree = "<group>"; };
+		0092477915AFDB7700D6A871 /* Cut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cut.h; sourceTree = "<group>"; };
+		0092477A15AFDB7700D6A871 /* Cut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cut.m; sourceTree = "<group>"; };
+		0092477B15AFDB7700D6A871 /* Cut.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cut.xib; sourceTree = "<group>"; };
+		0092478815AFDB9100D6A871 /* itf.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = itf.gif; path = IOS_SDK/itf.gif; sourceTree = "<group>"; };
+		0092478915AFDB9100D6A871 /* ITF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITF.h; sourceTree = "<group>"; };
+		0092478A15AFDB9100D6A871 /* ITF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITF.m; sourceTree = "<group>"; };
+		0092478B15AFDB9100D6A871 /* ITF.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ITF.xib; sourceTree = "<group>"; };
+		0092478C15AFDB9100D6A871 /* JpKnjFormating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpKnjFormating.h; sourceTree = "<group>"; };
+		0092478D15AFDB9100D6A871 /* JpKnjFormating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JpKnjFormating.m; sourceTree = "<group>"; };
+		0092478E15AFDB9100D6A871 /* JpKnjFormating.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JpKnjFormating.xib; sourceTree = "<group>"; };
+		0092478F15AFDB9100D6A871 /* JpKnjFormatingMini.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpKnjFormatingMini.h; sourceTree = "<group>"; };
+		0092479015AFDB9100D6A871 /* JpKnjFormatingMini.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JpKnjFormatingMini.m; sourceTree = "<group>"; };
+		0092479115AFDB9100D6A871 /* JpKnjFormatingMini.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JpKnjFormatingMini.xib; sourceTree = "<group>"; };
+		0092479B15AFDBAB00D6A871 /* MiniPrinterFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniPrinterFunctions.h; sourceTree = "<group>"; };
+		0092479C15AFDBAB00D6A871 /* MiniPrinterFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniPrinterFunctions.m; sourceTree = "<group>"; };
+		0092479D15AFDBAB00D6A871 /* pdf417.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = pdf417.gif; path = IOS_SDK/pdf417.gif; sourceTree = "<group>"; };
+		0092479E15AFDBAB00D6A871 /* PDF417.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDF417.h; sourceTree = "<group>"; };
+		0092479F15AFDBAB00D6A871 /* PDF417.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDF417.m; sourceTree = "<group>"; };
+		009247A015AFDBAB00D6A871 /* PDF417.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDF417.xib; sourceTree = "<group>"; };
+		009247A115AFDBAB00D6A871 /* PDF417mini.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDF417mini.h; sourceTree = "<group>"; };
+		009247A215AFDBAB00D6A871 /* PDF417mini.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDF417mini.m; sourceTree = "<group>"; };
+		009247A315AFDBAB00D6A871 /* PDF417mini.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDF417mini.xib; sourceTree = "<group>"; };
+		009247AD15AFDBCD00D6A871 /* PrinterFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterFunctions.h; sourceTree = "<group>"; };
+		009247AE15AFDBCD00D6A871 /* PrinterFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterFunctions.m; sourceTree = "<group>"; };
+		009247AF15AFDBCD00D6A871 /* qrcode.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = qrcode.gif; path = IOS_SDK/qrcode.gif; sourceTree = "<group>"; };
+		009247B015AFDBCD00D6A871 /* QRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCode.h; sourceTree = "<group>"; };
+		009247B115AFDBCD00D6A871 /* QRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCode.m; sourceTree = "<group>"; };
+		009247B215AFDBCD00D6A871 /* QRCode.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QRCode.xib; sourceTree = "<group>"; };
+		009247B315AFDBCD00D6A871 /* QRCodeMini.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeMini.h; sourceTree = "<group>"; };
+		009247B415AFDBCD00D6A871 /* QRCodeMini.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeMini.m; sourceTree = "<group>"; };
+		009247B515AFDBCD00D6A871 /* QRCodeMini.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QRCodeMini.xib; sourceTree = "<group>"; };
+		009247B615AFDBCD00D6A871 /* RasterDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RasterDocument.h; sourceTree = "<group>"; };
+		009247B715AFDBCD00D6A871 /* RasterDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RasterDocument.m; sourceTree = "<group>"; };
+		009247BB15AFDBCD00D6A871 /* StandardHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardHelp.h; sourceTree = "<group>"; };
+		009247BC15AFDBCD00D6A871 /* StandardHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardHelp.m; sourceTree = "<group>"; };
+		009247BD15AFDBCD00D6A871 /* StandardHelp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StandardHelp.xib; sourceTree = "<group>"; };
+		009247BE15AFDBCD00D6A871 /* StarBitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarBitmap.h; sourceTree = "<group>"; };
+		009247BF15AFDBCD00D6A871 /* StarBitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarBitmap.m; sourceTree = "<group>"; };
+		009247C015AFDBCD00D6A871 /* TextFormating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFormating.h; sourceTree = "<group>"; };
+		009247C115AFDBCD00D6A871 /* TextFormating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFormating.m; sourceTree = "<group>"; };
+		009247C215AFDBCD00D6A871 /* TextFormating.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFormating.xib; sourceTree = "<group>"; };
+		009247C315AFDBCD00D6A871 /* TextFormatingMini.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFormatingMini.h; sourceTree = "<group>"; };
+		009247C415AFDBCD00D6A871 /* TextFormatingMini.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFormatingMini.m; sourceTree = "<group>"; };
+		009247C515AFDBCD00D6A871 /* TextFormatingMini.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFormatingMini.xib; sourceTree = "<group>"; };
+		009247DB15AFDD3C00D6A871 /* StarIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StarIO.framework; sourceTree = "<group>"; };
+		009247DF15AFEDBF00D6A871 /* ViewControllerEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerEx.h; sourceTree = "<group>"; };
+		009247E015AFEDBF00D6A871 /* ViewControllerEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerEx.m; sourceTree = "<group>"; };
+		009247E115AFEDC000D6A871 /* ViewControllerEx.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerEx.xib; sourceTree = "<group>"; };
+		00C8CFED16A66071000B178A /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		00C8CFEE16A66072000B178A /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		00C8CFEF16A66073000B178A /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		00C8CFF016A66074000B178A /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		00DDFF8415BA1B7F002E6973 /* rasterPrinting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rasterPrinting.h; sourceTree = "<group>"; };
+		00DDFF8515BA1B7F002E6973 /* rasterPrinting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rasterPrinting.m; sourceTree = "<group>"; };
+		0ACA999315E0BB4300774577 /* ReturnSelectedCellText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReturnSelectedCellText.h; sourceTree = "<group>"; };
+		2833747319B00B2000359ABD /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image1.png; path = IOS_SDK/Resources/image1.png; sourceTree = "<group>"; };
+		2833747419B00B2000359ABD /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image2.jpg; path = IOS_SDK/Resources/image2.jpg; sourceTree = "<group>"; };
+		2833747519B00B2000359ABD /* image3.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = image3.bmp; path = IOS_SDK/Resources/image3.bmp; sourceTree = "<group>"; };
+		2833747619B00B2000359ABD /* image4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = image4.gif; path = IOS_SDK/Resources/image4.gif; sourceTree = "<group>"; };
+		8823DB9917617E5A00DBAEE9 /* IOS_SDKViewControllerDKAirCash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOS_SDKViewControllerDKAirCash.h; sourceTree = "<group>"; };
+		8823DB9A17617E5A00DBAEE9 /* IOS_SDKViewControllerDKAirCash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOS_SDKViewControllerDKAirCash.m; sourceTree = "<group>"; };
+		8823DB9B17617E5A00DBAEE9 /* IOS_SDKViewControllerDKAirCash.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IOS_SDKViewControllerDKAirCash.xib; sourceTree = "<group>"; };
+		8843AC3A1AA400FC00327101 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = IOS_SDK/Images.xcassets; sourceTree = "<group>"; };
+		885525F219A47EE600D24C50 /* ImageFilePrintingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFilePrintingViewController.h; sourceTree = "<group>"; };
+		885525F319A47EE600D24C50 /* ImageFilePrintingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFilePrintingViewController.m; sourceTree = "<group>"; };
+		885525F419A47EE600D24C50 /* ImageFilePrintingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageFilePrintingViewController.xib; sourceTree = "<group>"; };
+		8858F7E21818DC7700F9BAE1 /* BluetoothSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothSettingViewController.h; sourceTree = "<group>"; };
+		8858F7E31818DC7700F9BAE1 /* BluetoothSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothSettingViewController.m; sourceTree = "<group>"; };
+		8858F7E41818DC7700F9BAE1 /* BluetoothSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BluetoothSettingViewController.xib; sourceTree = "<group>"; };
+		885B062619DE8FC9003D1C46 /* 1D_barcode.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 1D_barcode.gif; path = IOS_SDK/1D_barcode.gif; sourceTree = "<group>"; };
+		886189FC19A70B3400DC5957 /* SimplifiedChineseTextFormatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplifiedChineseTextFormatting.h; sourceTree = "<group>"; };
+		886189FD19A70B3400DC5957 /* SimplifiedChineseTextFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplifiedChineseTextFormatting.m; sourceTree = "<group>"; };
+		88618A0019A7107900DC5957 /* TraditionalChineseTextFormatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraditionalChineseTextFormatting.h; sourceTree = "<group>"; };
+		88618A0119A7107900DC5957 /* TraditionalChineseTextFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraditionalChineseTextFormatting.m; sourceTree = "<group>"; };
+		88618A0419A7138600DC5957 /* TextFormattingDotMatrixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFormattingDotMatrixViewController.h; sourceTree = "<group>"; };
+		88618A0519A7138600DC5957 /* TextFormattingDotMatrixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFormattingDotMatrixViewController.m; sourceTree = "<group>"; };
+		88618A0619A7138600DC5957 /* TextFormattingDotMatrixViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFormattingDotMatrixViewController.xib; sourceTree = "<group>"; };
+		88618A0B19A72B7600DC5957 /* JpKnjFormattingDotMatrixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpKnjFormattingDotMatrixViewController.h; sourceTree = "<group>"; };
+		88618A0C19A72B7600DC5957 /* JpKnjFormattingDotMatrixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JpKnjFormattingDotMatrixViewController.m; sourceTree = "<group>"; };
+		88618A0F19A7369C00DC5957 /* SimplifiedTextFormattingDotMatrixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplifiedTextFormattingDotMatrixViewController.h; sourceTree = "<group>"; };
+		88618A1019A7369C00DC5957 /* SimplifiedTextFormattingDotMatrixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplifiedTextFormattingDotMatrixViewController.m; sourceTree = "<group>"; };
+		88618A1319A73B2B00DC5957 /* TraditionalChineseFormattingDotMatrixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraditionalChineseFormattingDotMatrixViewController.h; sourceTree = "<group>"; };
+		88618A1419A73B2B00DC5957 /* TraditionalChineseFormattingDotMatrixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraditionalChineseFormattingDotMatrixViewController.m; sourceTree = "<group>"; };
+		88618A1719A73C0600DC5957 /* SelectDotMatrixTextFormattingLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectDotMatrixTextFormattingLanguageViewController.h; sourceTree = "<group>"; };
+		88618A1819A73C0600DC5957 /* SelectDotMatrixTextFormattingLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectDotMatrixTextFormattingLanguageViewController.m; sourceTree = "<group>"; };
+		886A5B2919FF4F4400A3616F /* SelectEmulationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectEmulationViewController.h; sourceTree = "<group>"; };
+		886A5B2A19FF4F4400A3616F /* SelectEmulationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectEmulationViewController.m; sourceTree = "<group>"; };
+		886A5B2B19FF4F4400A3616F /* SelectEmulationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectEmulationViewController.xib; sourceTree = "<group>"; };
+		886A5B3B19FF717000A3616F /* IOS_SDKViewControllerPortableStarLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOS_SDKViewControllerPortableStarLine.h; sourceTree = "<group>"; };
+		886A5B3C19FF717000A3616F /* IOS_SDKViewControllerPortableStarLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOS_SDKViewControllerPortableStarLine.m; sourceTree = "<group>"; };
+		886A5B3F19FF77C600A3616F /* IOS_SDKViewControllerPortableStarRaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOS_SDKViewControllerPortableStarRaster.h; sourceTree = "<group>"; };
+		886A5B4019FF77C600A3616F /* IOS_SDKViewControllerPortableStarRaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOS_SDKViewControllerPortableStarRaster.m; sourceTree = "<group>"; };
+		887CABC01AA0273700AD4E06 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Launch Screen.xib"; path = "IOS_SDK/Resources/Launch Screen.xib"; sourceTree = "<group>"; };
+		888B317418A2565300F34AAE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		888EF5D31A3A7B3600A63030 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		8895E2B21A9C0A46005B1CA6 /* Background_PortablePrinter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background_PortablePrinter.png; path = IOS_SDK/Resources/Background_PortablePrinter.png; sourceTree = "<group>"; };
+		8899459819AAD9100099984A /* ImageFilePrintingMiniViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFilePrintingMiniViewController.h; sourceTree = "<group>"; };
+		8899459919AAD9100099984A /* ImageFilePrintingMiniViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFilePrintingMiniViewController.m; sourceTree = "<group>"; };
+		88A3ECC1163792DD0007D57E /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		88A5B17B1713B78A00AB33BA /* CommonEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonEnum.h; sourceTree = "<group>"; };
+		88A969A716C0CD100021C88D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/rasterPrinting.xib; sourceTree = "<group>"; };
+		88AF1F241638CFD900E66761 /* CheckConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckConnectionViewController.h; sourceTree = "<group>"; };
+		88AF1F251638CFD900E66761 /* CheckConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckConnectionViewController.m; sourceTree = "<group>"; };
+		88AF1F261638CFD900E66761 /* CheckConnectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckConnectionViewController.xib; sourceTree = "<group>"; };
+		88D4840B1A01B60800968625 /* SelectPortableLineTextFormattingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPortableLineTextFormattingViewController.h; sourceTree = "<group>"; };
+		88D4840C1A01B60800968625 /* SelectPortableLineTextFormattingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPortableLineTextFormattingViewController.m; sourceTree = "<group>"; };
+		88D4840F1A01C0F400968625 /* SelectPortableRasterSampleReceiptLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPortableRasterSampleReceiptLanguageViewController.h; sourceTree = "<group>"; };
+		88D484101A01C0F400968625 /* SelectPortableRasterSampleReceiptLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPortableRasterSampleReceiptLanguageViewController.m; sourceTree = "<group>"; };
+		88D607F61A00ABBB00F88EFD /* SelectPortableLineSampleReceiptLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPortableLineSampleReceiptLanguageViewController.h; sourceTree = "<group>"; };
+		88D607F71A00ABBB00F88EFD /* SelectPortableLineSampleReceiptLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPortableLineSampleReceiptLanguageViewController.m; sourceTree = "<group>"; };
+		88DB43A81C7EE5D200F31061 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		88E51BDE17796DA6003CB9BB /* CommonTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableView.h; sourceTree = "<group>"; };
+		88E51BDF17796DA6003CB9BB /* CommonTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableView.m; sourceTree = "<group>"; };
+		88E51BE017796DA6003CB9BB /* CommonTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonTableView.xib; sourceTree = "<group>"; };
+		88E51BE317799167003CB9BB /* DKAirCashFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKAirCashFunctions.h; sourceTree = "<group>"; };
+		88E51BE417799167003CB9BB /* DKAirCashFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKAirCashFunctions.m; sourceTree = "<group>"; };
+		88E662CB1C8E975500D98413 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = IOS_SDK/ja.lproj/ProxiPRNTCell.xib; sourceTree = "<group>"; };
+		88E662CC1C8E975500D98413 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/rasterPrinting.xib; sourceTree = "<group>"; };
+		88E662CD1C8E975500D98413 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/ViewController.xib; sourceTree = "<group>"; };
+		88E662CE1C8E975500D98413 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88E7DDB919A5878B0004F706 /* IOS_SDKViewControllerImpactDotMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOS_SDKViewControllerImpactDotMatrix.h; sourceTree = "<group>"; };
+		88E7DDBA19A5878B0004F706 /* IOS_SDKViewControllerImpactDotMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOS_SDKViewControllerImpactDotMatrix.m; sourceTree = "<group>"; };
+		88E7DDBB19A5878B0004F706 /* IOS_SDKViewControllerImpactDotMatrix.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IOS_SDKViewControllerImpactDotMatrix.xib; sourceTree = "<group>"; };
+		88E7DDC019A587BB0004F706 /* SelectLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLanguageViewController.h; sourceTree = "<group>"; };
+		88E7DDC119A587BB0004F706 /* SelectLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLanguageViewController.m; sourceTree = "<group>"; };
+		88E7DDC219A587BB0004F706 /* SelectLanguageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectLanguageViewController.xib; sourceTree = "<group>"; };
+		88E7DDC719A5B5230004F706 /* SelectDesktopLineSampleReceiptLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectDesktopLineSampleReceiptLanguageViewController.h; sourceTree = "<group>"; };
+		88E7DDC819A5B5230004F706 /* SelectDesktopLineSampleReceiptLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectDesktopLineSampleReceiptLanguageViewController.m; sourceTree = "<group>"; };
+		88E7DDCB19A5C8620004F706 /* SelectDesktopTextFormattingLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectDesktopTextFormattingLanguageViewController.h; sourceTree = "<group>"; };
+		88E7DDCC19A5C8620004F706 /* SelectDesktopTextFormattingLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectDesktopTextFormattingLanguageViewController.m; sourceTree = "<group>"; };
+		88E7DDCF19A5D0ED0004F706 /* SelectPortableSampleReceiptLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPortableSampleReceiptLanguageViewController.h; sourceTree = "<group>"; };
+		88E7DDD019A5D0ED0004F706 /* SelectPortableSampleReceiptLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPortableSampleReceiptLanguageViewController.m; sourceTree = "<group>"; };
+		88E7DDD319A5D4D50004F706 /* SelectDesktopRasterSampleReceiptLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectDesktopRasterSampleReceiptLanguageViewController.h; sourceTree = "<group>"; };
+		88E7DDD419A5D4D50004F706 /* SelectDesktopRasterSampleReceiptLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectDesktopRasterSampleReceiptLanguageViewController.m; sourceTree = "<group>"; };
+		88E7DDD719A5E57F0004F706 /* SelectDotMatrixSampleReceiptLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectDotMatrixSampleReceiptLanguageViewController.h; sourceTree = "<group>"; };
+		88E7DDD819A5E57F0004F706 /* SelectDotMatrixSampleReceiptLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectDotMatrixSampleReceiptLanguageViewController.m; sourceTree = "<group>"; };
+		88E8ACAD19AD9EAA00EF682A /* DotPrinterFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotPrinterFunctions.h; sourceTree = "<group>"; };
+		88E8ACAE19AD9EAA00EF682A /* DotPrinterFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotPrinterFunctions.m; sourceTree = "<group>"; };
+		88FA28651C7A8ECD00B792E9 /* SMCloudServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMCloudServices.framework; sourceTree = "<group>"; };
+		88FA28671C7A8F0100B792E9 /* SMCloudServicesResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SMCloudServicesResources.bundle; path = SMCloudServices.framework/Versions/A/Resources/SMCloudServicesResources.bundle; sourceTree = "<group>"; };
+		88FA28691C7A979F00B792E9 /* AllReceiptsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllReceiptsViewController.h; path = IOS_SDK/AllReceipts/AllReceiptsViewController.h; sourceTree = "<group>"; };
+		88FA286A1C7A979F00B792E9 /* AllReceiptsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllReceiptsViewController.m; path = IOS_SDK/AllReceipts/AllReceiptsViewController.m; sourceTree = "<group>"; };
+		88FA28701C7A9F2600B792E9 /* StarIO_Extension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StarIO_Extension.framework; sourceTree = "<group>"; };
+		BA932D0516C3BEFA00AF9572 /* Background_Top.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Background_Top.JPG; path = IOS_SDK/Background_Top.JPG; sourceTree = "<group>"; };
+		BA932D0716C3BF0C00AF9572 /* Background_DesktopPrinter.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Background_DesktopPrinter.JPG; path = IOS_SDK/Background_DesktopPrinter.JPG; sourceTree = "<group>"; };
+		DBAF4FB41B53555B00E56A36 /* IOS_SDKViewControllerProxiPRNT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOS_SDKViewControllerProxiPRNT.h; path = IOS_SDK/IOS_SDKViewControllerProxiPRNT.h; sourceTree = "<group>"; };
+		DBAF4FB51B53555B00E56A36 /* IOS_SDKViewControllerProxiPRNT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IOS_SDKViewControllerProxiPRNT.m; path = IOS_SDK/IOS_SDKViewControllerProxiPRNT.m; sourceTree = "<group>"; };
+		DBAF4FB61B53555B00E56A36 /* IOS_SDKViewControllerProxiPRNT.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IOS_SDKViewControllerProxiPRNT.xib; path = IOS_SDK/IOS_SDKViewControllerProxiPRNT.xib; sourceTree = "<group>"; };
+		DBAF4FB71B53555B00E56A36 /* ProxiPRNTCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProxiPRNTCell.h; path = IOS_SDK/ProxiPRNTCell.h; sourceTree = "<group>"; };
+		DBAF4FB81B53555B00E56A36 /* ProxiPRNTCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProxiPRNTCell.m; path = IOS_SDK/ProxiPRNTCell.m; sourceTree = "<group>"; };
+		DBAF4FB91B53555B00E56A36 /* ProxiPRNTSettingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProxiPRNTSettingManager.h; path = IOS_SDK/ProxiPRNTSettingManager.h; sourceTree = "<group>"; };
+		DBAF4FBA1B53555B00E56A36 /* ProxiPRNTSettingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProxiPRNTSettingManager.m; path = IOS_SDK/ProxiPRNTSettingManager.m; sourceTree = "<group>"; };
+		DBAF4FBB1B53555B00E56A36 /* SelectDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectDeviceViewController.h; path = IOS_SDK/SelectDeviceViewController.h; sourceTree = "<group>"; };
+		DBAF4FBC1B53555B00E56A36 /* SelectDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectDeviceViewController.m; path = IOS_SDK/SelectDeviceViewController.m; sourceTree = "<group>"; };
+		DBAF4FBD1B53555B00E56A36 /* SelectDeviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SelectDeviceViewController.xib; path = IOS_SDK/SelectDeviceViewController.xib; sourceTree = "<group>"; };
+		DBAF4FBE1B53555B00E56A36 /* ThresholdSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThresholdSettingViewController.h; path = IOS_SDK/ThresholdSettingViewController.h; sourceTree = "<group>"; };
+		DBAF4FBF1B53555B00E56A36 /* ThresholdSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThresholdSettingViewController.m; path = IOS_SDK/ThresholdSettingViewController.m; sourceTree = "<group>"; };
+		DBAF4FC01B53555B00E56A36 /* ThresholdSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ThresholdSettingViewController.xib; path = IOS_SDK/ThresholdSettingViewController.xib; sourceTree = "<group>"; };
+		DBAF4FCA1B53556B00E56A36 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = IOS_SDK/en.lproj/ProxiPRNTCell.xib; sourceTree = "<group>"; };
+		DBBF078F1B4108C300F6CEBF /* SelectDesktopLineSampleReceiptUtf8LanguageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectDesktopLineSampleReceiptUtf8LanguageViewController.h; sourceTree = "<group>"; };
+		DBBF07901B41090500F6CEBF /* SelectDesktopLineSampleReceiptUtf8LanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectDesktopLineSampleReceiptUtf8LanguageViewController.m; sourceTree = "<group>"; };
+		DBBF07921B41339800F6CEBF /* Utf8TextFormatting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utf8TextFormatting.h; sourceTree = "<group>"; };
+		DBBF07931B41341500F6CEBF /* Utf8TextFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utf8TextFormatting.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0092473A15AFD86400D6A871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DB43A91C7EE5D200F31061 /* CoreImage.framework in Frameworks */,
+				88FA28711C7A9F2600B792E9 /* StarIO_Extension.framework in Frameworks */,
+				88FA28661C7A8ECD00B792E9 /* SMCloudServices.framework in Frameworks */,
+				888EF5D41A3A7B3600A63030 /* CoreBluetooth.framework in Frameworks */,
+				888B317518A2565300F34AAE /* QuartzCore.framework in Frameworks */,
+				88A3ECC2163792DD0007D57E /* ExternalAccessory.framework in Frameworks */,
+				0092474215AFD86400D6A871 /* UIKit.framework in Frameworks */,
+				0092474415AFD86400D6A871 /* Foundation.framework in Frameworks */,
+				0092474615AFD86400D6A871 /* CoreGraphics.framework in Frameworks */,
+				009247DC15AFDD3C00D6A871 /* StarIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0040E0E216A8DF25004066CB /* iPad xib */ = {
+			isa = PBXGroup;
+			children = (
+				0040E0EC16A8DF3A004066CB /* JpKnjFormating~ipad.xib */,
+				0040E0ED16A8DF3A004066CB /* JpKnjFormatingMini~ipad.xib */,
+				0040E0F316A8DF3A004066CB /* TextFormating~ipad.xib */,
+				0040E0F416A8DF3A004066CB /* TextFormatingMini~ipad.xib */,
+				0040E0FD16A8DF3A004066CB /* rasterPrinting~ipad.xib */,
+			);
+			name = "iPad xib";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		0092473215AFD86400D6A871 = {
+			isa = PBXGroup;
+			children = (
+				8829EC2F1C74101500CEC6F8 /* AllReceipts */,
+				DBAF4FAF1B53548B00E56A36 /* ProxiPRNT */,
+				0092474715AFD86400D6A871 /* IOS_SDK */,
+				0AF4EE0B161DCE8E004B90D1 /* Resources */,
+				0092474015AFD86400D6A871 /* Frameworks */,
+				0092473E15AFD86400D6A871 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0092473E15AFD86400D6A871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0092473D15AFD86400D6A871 /* StarIO SDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0092474015AFD86400D6A871 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88DB43A81C7EE5D200F31061 /* CoreImage.framework */,
+				88FA28701C7A9F2600B792E9 /* StarIO_Extension.framework */,
+				88FA28651C7A8ECD00B792E9 /* SMCloudServices.framework */,
+				888EF5D31A3A7B3600A63030 /* CoreBluetooth.framework */,
+				888B317418A2565300F34AAE /* QuartzCore.framework */,
+				88A3ECC1163792DD0007D57E /* ExternalAccessory.framework */,
+				009247DB15AFDD3C00D6A871 /* StarIO.framework */,
+				0092474115AFD86400D6A871 /* UIKit.framework */,
+				0092474315AFD86400D6A871 /* Foundation.framework */,
+				0092474515AFD86400D6A871 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0092474715AFD86400D6A871 /* IOS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				00C8CFED16A66071000B178A /* AbstractActionSheetPicker.h */,
+				00C8CFEF16A66073000B178A /* ActionSheetStringPicker.h */,
+				0092475015AFD86400D6A871 /* AppDelegate.h */,
+				0092475E15AFDB6000D6A871 /* BarcodePrintingMini.h */,
+				009184D815B9456F0000A634 /* BarcodeSelector.h */,
+				009184DB15B945700000A634 /* BarcodeSelector2D.h */,
+				8858F7E21818DC7700F9BAE1 /* BluetoothSettingViewController.h */,
+				88AF1F241638CFD900E66761 /* CheckConnectionViewController.h */,
+				0092476715AFDB6000D6A871 /* code39.h */,
+				0092477215AFDB7700D6A871 /* code93.h */,
+				0092477615AFDB7700D6A871 /* code128.h */,
+				88A5B17B1713B78A00AB33BA /* CommonEnum.h */,
+				88E51BDE17796DA6003CB9BB /* CommonTableView.h */,
+				0092477915AFDB7700D6A871 /* Cut.h */,
+				88E51BE317799167003CB9BB /* DKAirCashFunctions.h */,
+				88E8ACAD19AD9EAA00EF682A /* DotPrinterFunctions.h */,
+				8899459819AAD9100099984A /* ImageFilePrintingMiniViewController.h */,
+				885525F219A47EE600D24C50 /* ImageFilePrintingViewController.h */,
+				8823DB9917617E5A00DBAEE9 /* IOS_SDKViewControllerDKAirCash.h */,
+				88E7DDB919A5878B0004F706 /* IOS_SDKViewControllerImpactDotMatrix.h */,
+				0092233D15B4EFE200D92768 /* IOS_SDKViewControllerLineMode.h */,
+				0092234015B4EFE200D92768 /* IOS_SDKViewControllerPortable.h */,
+				886A5B3B19FF717000A3616F /* IOS_SDKViewControllerPortableStarLine.h */,
+				886A5B3F19FF77C600A3616F /* IOS_SDKViewControllerPortableStarRaster.h */,
+				0092234315B4EFE200D92768 /* IOS_SDKViewControllerRasterMode.h */,
+				0092478915AFDB9100D6A871 /* ITF.h */,
+				0092478C15AFDB9100D6A871 /* JpKnjFormating.h */,
+				0092478F15AFDB9100D6A871 /* JpKnjFormatingMini.h */,
+				88618A0B19A72B7600DC5957 /* JpKnjFormattingDotMatrixViewController.h */,
+				0092479B15AFDBAB00D6A871 /* MiniPrinterFunctions.h */,
+				0092479E15AFDBAB00D6A871 /* PDF417.h */,
+				009247A115AFDBAB00D6A871 /* PDF417mini.h */,
+				009247AD15AFDBCD00D6A871 /* PrinterFunctions.h */,
+				009247B015AFDBCD00D6A871 /* QRCode.h */,
+				009247B315AFDBCD00D6A871 /* QRCodeMini.h */,
+				009247B615AFDBCD00D6A871 /* RasterDocument.h */,
+				00DDFF8415BA1B7F002E6973 /* rasterPrinting.h */,
+				0ACA999315E0BB4300774577 /* ReturnSelectedCellText.h */,
+				007D434915DDE10800482BD3 /* SearchPrinterViewController.h */,
+				88E7DDC719A5B5230004F706 /* SelectDesktopLineSampleReceiptLanguageViewController.h */,
+				DBBF078F1B4108C300F6CEBF /* SelectDesktopLineSampleReceiptUtf8LanguageViewController.h */,
+				88E7DDD319A5D4D50004F706 /* SelectDesktopRasterSampleReceiptLanguageViewController.h */,
+				88E7DDCB19A5C8620004F706 /* SelectDesktopTextFormattingLanguageViewController.h */,
+				88E7DDD719A5E57F0004F706 /* SelectDotMatrixSampleReceiptLanguageViewController.h */,
+				88618A1719A73C0600DC5957 /* SelectDotMatrixTextFormattingLanguageViewController.h */,
+				886A5B2919FF4F4400A3616F /* SelectEmulationViewController.h */,
+				88E7DDC019A587BB0004F706 /* SelectLanguageViewController.h */,
+				88D607F61A00ABBB00F88EFD /* SelectPortableLineSampleReceiptLanguageViewController.h */,
+				88D4840B1A01B60800968625 /* SelectPortableLineTextFormattingViewController.h */,
+				88D4840F1A01C0F400968625 /* SelectPortableRasterSampleReceiptLanguageViewController.h */,
+				88E7DDCF19A5D0ED0004F706 /* SelectPortableSampleReceiptLanguageViewController.h */,
+				886189FC19A70B3400DC5957 /* SimplifiedChineseTextFormatting.h */,
+				88618A0F19A7369C00DC5957 /* SimplifiedTextFormattingDotMatrixViewController.h */,
+				009247BB15AFDBCD00D6A871 /* StandardHelp.h */,
+				009247BE15AFDBCD00D6A871 /* StarBitmap.h */,
+				009247C015AFDBCD00D6A871 /* TextFormating.h */,
+				009247C315AFDBCD00D6A871 /* TextFormatingMini.h */,
+				88618A0419A7138600DC5957 /* TextFormattingDotMatrixViewController.h */,
+				88618A1319A73B2B00DC5957 /* TraditionalChineseFormattingDotMatrixViewController.h */,
+				88618A0019A7107900DC5957 /* TraditionalChineseTextFormatting.h */,
+				DBBF07921B41339800F6CEBF /* Utf8TextFormatting.h */,
+				0092475315AFD86400D6A871 /* ViewController.h */,
+				009247DF15AFEDBF00D6A871 /* ViewControllerEx.h */,
+				00C8CFEE16A66072000B178A /* AbstractActionSheetPicker.m */,
+				00C8CFF016A66074000B178A /* ActionSheetStringPicker.m */,
+				0092475115AFD86400D6A871 /* AppDelegate.m */,
+				0092475F15AFDB6000D6A871 /* BarcodePrintingMini.m */,
+				009184D915B945700000A634 /* BarcodeSelector.m */,
+				009184DC15B945700000A634 /* BarcodeSelector2D.m */,
+				8858F7E31818DC7700F9BAE1 /* BluetoothSettingViewController.m */,
+				88AF1F251638CFD900E66761 /* CheckConnectionViewController.m */,
+				0092476815AFDB6000D6A871 /* code39.m */,
+				0092477315AFDB7700D6A871 /* code93.m */,
+				0092477715AFDB7700D6A871 /* code128.m */,
+				88E51BDF17796DA6003CB9BB /* CommonTableView.m */,
+				0092477A15AFDB7700D6A871 /* Cut.m */,
+				88E51BE417799167003CB9BB /* DKAirCashFunctions.m */,
+				88E8ACAE19AD9EAA00EF682A /* DotPrinterFunctions.m */,
+				8899459919AAD9100099984A /* ImageFilePrintingMiniViewController.m */,
+				885525F319A47EE600D24C50 /* ImageFilePrintingViewController.m */,
+				8823DB9A17617E5A00DBAEE9 /* IOS_SDKViewControllerDKAirCash.m */,
+				88E7DDBA19A5878B0004F706 /* IOS_SDKViewControllerImpactDotMatrix.m */,
+				0092233E15B4EFE200D92768 /* IOS_SDKViewControllerLineMode.m */,
+				0092234115B4EFE200D92768 /* IOS_SDKViewControllerPortable.m */,
+				886A5B3C19FF717000A3616F /* IOS_SDKViewControllerPortableStarLine.m */,
+				886A5B4019FF77C600A3616F /* IOS_SDKViewControllerPortableStarRaster.m */,
+				0092234415B4EFE200D92768 /* IOS_SDKViewControllerRasterMode.m */,
+				0092478A15AFDB9100D6A871 /* ITF.m */,
+				0092478D15AFDB9100D6A871 /* JpKnjFormating.m */,
+				0092479015AFDB9100D6A871 /* JpKnjFormatingMini.m */,
+				88618A0C19A72B7600DC5957 /* JpKnjFormattingDotMatrixViewController.m */,
+				0092479C15AFDBAB00D6A871 /* MiniPrinterFunctions.m */,
+				0092479F15AFDBAB00D6A871 /* PDF417.m */,
+				009247A215AFDBAB00D6A871 /* PDF417mini.m */,
+				009247AE15AFDBCD00D6A871 /* PrinterFunctions.m */,
+				009247B115AFDBCD00D6A871 /* QRCode.m */,
+				009247B415AFDBCD00D6A871 /* QRCodeMini.m */,
+				009247B715AFDBCD00D6A871 /* RasterDocument.m */,
+				00DDFF8515BA1B7F002E6973 /* rasterPrinting.m */,
+				007D434A15DDE10800482BD3 /* SearchPrinterViewController.m */,
+				88E7DDC819A5B5230004F706 /* SelectDesktopLineSampleReceiptLanguageViewController.m */,
+				DBBF07901B41090500F6CEBF /* SelectDesktopLineSampleReceiptUtf8LanguageViewController.m */,
+				88E7DDD419A5D4D50004F706 /* SelectDesktopRasterSampleReceiptLanguageViewController.m */,
+				88E7DDCC19A5C8620004F706 /* SelectDesktopTextFormattingLanguageViewController.m */,
+				88E7DDD819A5E57F0004F706 /* SelectDotMatrixSampleReceiptLanguageViewController.m */,
+				88618A1819A73C0600DC5957 /* SelectDotMatrixTextFormattingLanguageViewController.m */,
+				886A5B2A19FF4F4400A3616F /* SelectEmulationViewController.m */,
+				88E7DDC119A587BB0004F706 /* SelectLanguageViewController.m */,
+				88D607F71A00ABBB00F88EFD /* SelectPortableLineSampleReceiptLanguageViewController.m */,
+				88D4840C1A01B60800968625 /* SelectPortableLineTextFormattingViewController.m */,
+				88D484101A01C0F400968625 /* SelectPortableRasterSampleReceiptLanguageViewController.m */,
+				88E7DDD019A5D0ED0004F706 /* SelectPortableSampleReceiptLanguageViewController.m */,
+				886189FD19A70B3400DC5957 /* SimplifiedChineseTextFormatting.m */,
+				88618A1019A7369C00DC5957 /* SimplifiedTextFormattingDotMatrixViewController.m */,
+				009247BC15AFDBCD00D6A871 /* StandardHelp.m */,
+				009247BF15AFDBCD00D6A871 /* StarBitmap.m */,
+				009247C115AFDBCD00D6A871 /* TextFormating.m */,
+				009247C415AFDBCD00D6A871 /* TextFormatingMini.m */,
+				88618A0519A7138600DC5957 /* TextFormattingDotMatrixViewController.m */,
+				88618A1419A73B2B00DC5957 /* TraditionalChineseFormattingDotMatrixViewController.m */,
+				88618A0119A7107900DC5957 /* TraditionalChineseTextFormatting.m */,
+				DBBF07931B41341500F6CEBF /* Utf8TextFormatting.m */,
+				0092475415AFD86400D6A871 /* ViewController.m */,
+				009247E015AFEDBF00D6A871 /* ViewControllerEx.m */,
+				0092476015AFDB6000D6A871 /* BarcodePrintingMini.xib */,
+				009184DA15B945700000A634 /* BarcodeSelector.xib */,
+				8858F7E41818DC7700F9BAE1 /* BluetoothSettingViewController.xib */,
+				88AF1F261638CFD900E66761 /* CheckConnectionViewController.xib */,
+				0092477015AFDB7700D6A871 /* code39.xib */,
+				0092477415AFDB7700D6A871 /* code93.xib */,
+				0092477815AFDB7700D6A871 /* code128.xib */,
+				88E51BE017796DA6003CB9BB /* CommonTableView.xib */,
+				0092477B15AFDB7700D6A871 /* Cut.xib */,
+				885525F419A47EE600D24C50 /* ImageFilePrintingViewController.xib */,
+				8823DB9B17617E5A00DBAEE9 /* IOS_SDKViewControllerDKAirCash.xib */,
+				88E7DDBB19A5878B0004F706 /* IOS_SDKViewControllerImpactDotMatrix.xib */,
+				0092233F15B4EFE200D92768 /* IOS_SDKViewControllerLineMode.xib */,
+				0092234215B4EFE200D92768 /* IOS_SDKViewControllerPortable.xib */,
+				0092234515B4EFE200D92768 /* IOS_SDKViewControllerRasterMode.xib */,
+				0092478B15AFDB9100D6A871 /* ITF.xib */,
+				0092478E15AFDB9100D6A871 /* JpKnjFormating.xib */,
+				0092479115AFDB9100D6A871 /* JpKnjFormatingMini.xib */,
+				009247A015AFDBAB00D6A871 /* PDF417.xib */,
+				009247A315AFDBAB00D6A871 /* PDF417mini.xib */,
+				009247B215AFDBCD00D6A871 /* QRCode.xib */,
+				009247B515AFDBCD00D6A871 /* QRCodeMini.xib */,
+				00374D1115DE075E004A4D86 /* SearchPrinterViewController.xib */,
+				886A5B2B19FF4F4400A3616F /* SelectEmulationViewController.xib */,
+				88E7DDC219A587BB0004F706 /* SelectLanguageViewController.xib */,
+				009247BD15AFDBCD00D6A871 /* StandardHelp.xib */,
+				009247C215AFDBCD00D6A871 /* TextFormating.xib */,
+				009247C515AFDBCD00D6A871 /* TextFormatingMini.xib */,
+				88618A0619A7138600DC5957 /* TextFormattingDotMatrixViewController.xib */,
+				88A969A816C0CD100021C88D /* rasterPrinting.xib */,
+				009247E115AFEDC000D6A871 /* ViewControllerEx.xib */,
+				0092475615AFD86400D6A871 /* ViewController.xib */,
+				0040E0E216A8DF25004066CB /* iPad xib */,
+				0092474815AFD86400D6A871 /* Supporting Files */,
+			);
+			path = IOS_SDK;
+			sourceTree = "<group>";
+		};
+		0092474815AFD86400D6A871 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0092474915AFD86400D6A871 /* IOS_SDK-Info.plist */,
+				0092474A15AFD86400D6A871 /* InfoPlist.strings */,
+				0092474D15AFD86400D6A871 /* main.m */,
+				0092474F15AFD86400D6A871 /* IOS_SDK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AF4EE0B161DCE8E004B90D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				88FA28671C7A8F0100B792E9 /* SMCloudServicesResources.bundle */,
+				2833747319B00B2000359ABD /* image1.png */,
+				2833747419B00B2000359ABD /* image2.jpg */,
+				2833747519B00B2000359ABD /* image3.bmp */,
+				2833747619B00B2000359ABD /* image4.gif */,
+				885B062619DE8FC9003D1C46 /* 1D_barcode.gif */,
+				0092477515AFDB7700D6A871 /* code128.gif */,
+				0092476615AFDB6000D6A871 /* code39.gif */,
+				0092477115AFDB7700D6A871 /* code93.gif */,
+				0092478815AFDB9100D6A871 /* itf.gif */,
+				0092479D15AFDBAB00D6A871 /* pdf417.gif */,
+				009247AF15AFDBCD00D6A871 /* qrcode.gif */,
+				8843AC3A1AA400FC00327101 /* Images.xcassets */,
+				BA932D0516C3BEFA00AF9572 /* Background_Top.JPG */,
+				BA932D0716C3BF0C00AF9572 /* Background_DesktopPrinter.JPG */,
+				8895E2B21A9C0A46005B1CA6 /* Background_PortablePrinter.png */,
+				887CABC01AA0273700AD4E06 /* Launch Screen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8829EC2F1C74101500CEC6F8 /* AllReceipts */ = {
+			isa = PBXGroup;
+			children = (
+				88FA28691C7A979F00B792E9 /* AllReceiptsViewController.h */,
+				88FA286A1C7A979F00B792E9 /* AllReceiptsViewController.m */,
+			);
+			name = AllReceipts;
+			sourceTree = "<group>";
+		};
+		DBAF4FAF1B53548B00E56A36 /* ProxiPRNT */ = {
+			isa = PBXGroup;
+			children = (
+				DBAF4FB41B53555B00E56A36 /* IOS_SDKViewControllerProxiPRNT.h */,
+				DBAF4FB51B53555B00E56A36 /* IOS_SDKViewControllerProxiPRNT.m */,
+				DBAF4FB61B53555B00E56A36 /* IOS_SDKViewControllerProxiPRNT.xib */,
+				DBAF4FB71B53555B00E56A36 /* ProxiPRNTCell.h */,
+				DBAF4FB81B53555B00E56A36 /* ProxiPRNTCell.m */,
+				DBAF4FC91B53556B00E56A36 /* ProxiPRNTCell.xib */,
+				DBAF4FB91B53555B00E56A36 /* ProxiPRNTSettingManager.h */,
+				DBAF4FBA1B53555B00E56A36 /* ProxiPRNTSettingManager.m */,
+				DBAF4FBB1B53555B00E56A36 /* SelectDeviceViewController.h */,
+				DBAF4FBC1B53555B00E56A36 /* SelectDeviceViewController.m */,
+				DBAF4FBD1B53555B00E56A36 /* SelectDeviceViewController.xib */,
+				DBAF4FBE1B53555B00E56A36 /* ThresholdSettingViewController.h */,
+				DBAF4FBF1B53555B00E56A36 /* ThresholdSettingViewController.m */,
+				DBAF4FC01B53555B00E56A36 /* ThresholdSettingViewController.xib */,
+			);
+			name = ProxiPRNT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0092473C15AFD86400D6A871 /* IOS_SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0092475B15AFD86400D6A871 /* Build configuration list for PBXNativeTarget "IOS_SDK" */;
+			buildPhases = (
+				0092473915AFD86400D6A871 /* Sources */,
+				0092473A15AFD86400D6A871 /* Frameworks */,
+				0092473B15AFD86400D6A871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOS_SDK;
+			productName = IOS_SDK;
+			productReference = 0092473D15AFD86400D6A871 /* StarIO SDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0092473415AFD86400D6A871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 0092473715AFD86400D6A871 /* Build configuration list for PBXProject "IOS_SDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+			);
+			mainGroup = 0092473215AFD86400D6A871;
+			productRefGroup = 0092473E15AFD86400D6A871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0092473C15AFD86400D6A871 /* IOS_SDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0092473B15AFD86400D6A871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FA28681C7A8F0100B792E9 /* SMCloudServicesResources.bundle in Resources */,
+				0092474C15AFD86400D6A871 /* InfoPlist.strings in Resources */,
+				0092475815AFD86400D6A871 /* ViewController.xib in Resources */,
+				886A5B2E19FF4F4400A3616F /* SelectEmulationViewController.xib in Resources */,
+				0092476A15AFDB6000D6A871 /* BarcodePrintingMini.xib in Resources */,
+				DBAF4FCB1B53556B00E56A36 /* ProxiPRNTCell.xib in Resources */,
+				0092476E15AFDB6000D6A871 /* code39.gif in Resources */,
+				0092477C15AFDB7700D6A871 /* code39.xib in Resources */,
+				0092477D15AFDB7700D6A871 /* code93.gif in Resources */,
+				0092477F15AFDB7700D6A871 /* code93.xib in Resources */,
+				885525F719A47EE600D24C50 /* ImageFilePrintingViewController.xib in Resources */,
+				887CABC11AA0273700AD4E06 /* Launch Screen.xib in Resources */,
+				0092478015AFDB7700D6A871 /* code128.gif in Resources */,
+				0092478215AFDB7700D6A871 /* code128.xib in Resources */,
+				885B062719DE8FC9003D1C46 /* 1D_barcode.gif in Resources */,
+				0092478415AFDB7700D6A871 /* Cut.xib in Resources */,
+				2833747719B00B2000359ABD /* image1.png in Resources */,
+				8843AC3B1AA400FC00327101 /* Images.xcassets in Resources */,
+				0092479415AFDB9100D6A871 /* itf.gif in Resources */,
+				0092479615AFDB9100D6A871 /* ITF.xib in Resources */,
+				0092479815AFDB9100D6A871 /* JpKnjFormating.xib in Resources */,
+				0092479A15AFDB9100D6A871 /* JpKnjFormatingMini.xib in Resources */,
+				009247A715AFDBAB00D6A871 /* pdf417.gif in Resources */,
+				2833747D19B00B2000359ABD /* image4.gif in Resources */,
+				009247A915AFDBAB00D6A871 /* PDF417.xib in Resources */,
+				009247AB15AFDBAB00D6A871 /* PDF417mini.xib in Resources */,
+				88E7DDC519A587BB0004F706 /* SelectLanguageViewController.xib in Resources */,
+				DBAF4FC81B53555B00E56A36 /* ThresholdSettingViewController.xib in Resources */,
+				009247C715AFDBCD00D6A871 /* qrcode.gif in Resources */,
+				009247C915AFDBCD00D6A871 /* QRCode.xib in Resources */,
+				009247CB15AFDBCD00D6A871 /* QRCodeMini.xib in Resources */,
+				009247D015AFDBCD00D6A871 /* StandardHelp.xib in Resources */,
+				8858F7E61818DC7700F9BAE1 /* BluetoothSettingViewController.xib in Resources */,
+				009247D315AFDBCD00D6A871 /* TextFormating.xib in Resources */,
+				009247D515AFDBCD00D6A871 /* TextFormatingMini.xib in Resources */,
+				009247E315AFEDC000D6A871 /* ViewControllerEx.xib in Resources */,
+				0092234715B4EFE200D92768 /* IOS_SDKViewControllerLineMode.xib in Resources */,
+				0092234915B4EFE200D92768 /* IOS_SDKViewControllerPortable.xib in Resources */,
+				0092234B15B4EFE200D92768 /* IOS_SDKViewControllerRasterMode.xib in Resources */,
+				009184DF15B945710000A634 /* BarcodeSelector.xib in Resources */,
+				88A969A616C0CD100021C88D /* rasterPrinting.xib in Resources */,
+				88E7DDBE19A5878B0004F706 /* IOS_SDKViewControllerImpactDotMatrix.xib in Resources */,
+				DBAF4FC21B53555B00E56A36 /* IOS_SDKViewControllerProxiPRNT.xib in Resources */,
+				88618A0919A7138600DC5957 /* TextFormattingDotMatrixViewController.xib in Resources */,
+				00374D1215DE075E004A4D86 /* SearchPrinterViewController.xib in Resources */,
+				2833747B19B00B2000359ABD /* image3.bmp in Resources */,
+				88AF1F281638CFD900E66761 /* CheckConnectionViewController.xib in Resources */,
+				0040E11B16A8E23A004066CB /* rasterPrinting~ipad.xib in Resources */,
+				0040E12716A8ECC8004066CB /* JpKnjFormating~ipad.xib in Resources */,
+				8895E2B31A9C0A46005B1CA6 /* Background_PortablePrinter.png in Resources */,
+				0040E12816A8ECCC004066CB /* JpKnjFormatingMini~ipad.xib in Resources */,
+				0040E12916A8ECD1004066CB /* TextFormating~ipad.xib in Resources */,
+				2833747919B00B2000359ABD /* image2.jpg in Resources */,
+				0040E12A16A8ECD5004066CB /* TextFormatingMini~ipad.xib in Resources */,
+				BA932D0616C3BEFA00AF9572 /* Background_Top.JPG in Resources */,
+				BA932D0816C3BF0C00AF9572 /* Background_DesktopPrinter.JPG in Resources */,
+				8823DB9D17617E5A00DBAEE9 /* IOS_SDKViewControllerDKAirCash.xib in Resources */,
+				DBAF4FC61B53555B00E56A36 /* SelectDeviceViewController.xib in Resources */,
+				88E51BE217796DA6003CB9BB /* CommonTableView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0092473915AFD86400D6A871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBAF4FC31B53555B00E56A36 /* ProxiPRNTCell.m in Sources */,
+				88E7DDC919A5B5230004F706 /* SelectDesktopLineSampleReceiptLanguageViewController.m in Sources */,
+				DBAF4FC11B53555B00E56A36 /* IOS_SDKViewControllerProxiPRNT.m in Sources */,
+				0092474E15AFD86400D6A871 /* main.m in Sources */,
+				0092475215AFD86400D6A871 /* AppDelegate.m in Sources */,
+				0092475515AFD86400D6A871 /* ViewController.m in Sources */,
+				0092476915AFDB6000D6A871 /* BarcodePrintingMini.m in Sources */,
+				8899459A19AAD9100099984A /* ImageFilePrintingMiniViewController.m in Sources */,
+				88E7DDD119A5D0ED0004F706 /* SelectPortableSampleReceiptLanguageViewController.m in Sources */,
+				88D484111A01C0F400968625 /* SelectPortableRasterSampleReceiptLanguageViewController.m in Sources */,
+				0092476F15AFDB6000D6A871 /* code39.m in Sources */,
+				886A5B2C19FF4F4400A3616F /* SelectEmulationViewController.m in Sources */,
+				0092477E15AFDB7700D6A871 /* code93.m in Sources */,
+				886A5B3D19FF717000A3616F /* IOS_SDKViewControllerPortableStarLine.m in Sources */,
+				88E7DDD519A5D4D50004F706 /* SelectDesktopRasterSampleReceiptLanguageViewController.m in Sources */,
+				0092478115AFDB7700D6A871 /* code128.m in Sources */,
+				DBBF07941B41341500F6CEBF /* Utf8TextFormatting.m in Sources */,
+				88D4840D1A01B60800968625 /* SelectPortableLineTextFormattingViewController.m in Sources */,
+				0092478315AFDB7700D6A871 /* Cut.m in Sources */,
+				0092479515AFDB9100D6A871 /* ITF.m in Sources */,
+				0092479715AFDB9100D6A871 /* JpKnjFormating.m in Sources */,
+				0092479915AFDB9100D6A871 /* JpKnjFormatingMini.m in Sources */,
+				009247A615AFDBAB00D6A871 /* MiniPrinterFunctions.m in Sources */,
+				009247A815AFDBAB00D6A871 /* PDF417.m in Sources */,
+				DBAF4FC51B53555B00E56A36 /* SelectDeviceViewController.m in Sources */,
+				009247AA15AFDBAB00D6A871 /* PDF417mini.m in Sources */,
+				88618A0219A7107900DC5957 /* TraditionalChineseTextFormatting.m in Sources */,
+				009247C615AFDBCD00D6A871 /* PrinterFunctions.m in Sources */,
+				88E8ACAF19AD9EAA00EF682A /* DotPrinterFunctions.m in Sources */,
+				88E7DDCD19A5C8620004F706 /* SelectDesktopTextFormattingLanguageViewController.m in Sources */,
+				88D607F81A00ABBB00F88EFD /* SelectPortableLineSampleReceiptLanguageViewController.m in Sources */,
+				DBAF4FC41B53555B00E56A36 /* ProxiPRNTSettingManager.m in Sources */,
+				009247C815AFDBCD00D6A871 /* QRCode.m in Sources */,
+				009247CA15AFDBCD00D6A871 /* QRCodeMini.m in Sources */,
+				009247CC15AFDBCD00D6A871 /* RasterDocument.m in Sources */,
+				009247CF15AFDBCD00D6A871 /* StandardHelp.m in Sources */,
+				009247D115AFDBCD00D6A871 /* StarBitmap.m in Sources */,
+				009247D215AFDBCD00D6A871 /* TextFormating.m in Sources */,
+				009247D415AFDBCD00D6A871 /* TextFormatingMini.m in Sources */,
+				009247E215AFEDC000D6A871 /* ViewControllerEx.m in Sources */,
+				88618A1519A73B2B00DC5957 /* TraditionalChineseFormattingDotMatrixViewController.m in Sources */,
+				0092234615B4EFE200D92768 /* IOS_SDKViewControllerLineMode.m in Sources */,
+				886A5B4119FF77C600A3616F /* IOS_SDKViewControllerPortableStarRaster.m in Sources */,
+				88E7DDD919A5E57F0004F706 /* SelectDotMatrixSampleReceiptLanguageViewController.m in Sources */,
+				88618A1919A73C0600DC5957 /* SelectDotMatrixTextFormattingLanguageViewController.m in Sources */,
+				0092234815B4EFE200D92768 /* IOS_SDKViewControllerPortable.m in Sources */,
+				0092234A15B4EFE200D92768 /* IOS_SDKViewControllerRasterMode.m in Sources */,
+				009184DE15B945710000A634 /* BarcodeSelector.m in Sources */,
+				009184E015B945710000A634 /* BarcodeSelector2D.m in Sources */,
+				00DDFF8715BA1B7F002E6973 /* rasterPrinting.m in Sources */,
+				007D434C15DDE10800482BD3 /* SearchPrinterViewController.m in Sources */,
+				88618A0D19A72B7600DC5957 /* JpKnjFormattingDotMatrixViewController.m in Sources */,
+				DBAF4FC71B53555B00E56A36 /* ThresholdSettingViewController.m in Sources */,
+				88FA286C1C7A979F00B792E9 /* AllReceiptsViewController.m in Sources */,
+				88E7DDBC19A5878B0004F706 /* IOS_SDKViewControllerImpactDotMatrix.m in Sources */,
+				88618A0719A7138600DC5957 /* TextFormattingDotMatrixViewController.m in Sources */,
+				88E7DDC319A587BB0004F706 /* SelectLanguageViewController.m in Sources */,
+				88AF1F271638CFD900E66761 /* CheckConnectionViewController.m in Sources */,
+				00C8CFF116A66075000B178A /* AbstractActionSheetPicker.m in Sources */,
+				00C8CFF216A66075000B178A /* ActionSheetStringPicker.m in Sources */,
+				88618A1119A7369C00DC5957 /* SimplifiedTextFormattingDotMatrixViewController.m in Sources */,
+				885525F519A47EE600D24C50 /* ImageFilePrintingViewController.m in Sources */,
+				8823DB9C17617E5A00DBAEE9 /* IOS_SDKViewControllerDKAirCash.m in Sources */,
+				886189FE19A70B3400DC5957 /* SimplifiedChineseTextFormatting.m in Sources */,
+				88E51BE117796DA6003CB9BB /* CommonTableView.m in Sources */,
+				8858F7E51818DC7700F9BAE1 /* BluetoothSettingViewController.m in Sources */,
+				DBBF07911B41090500F6CEBF /* SelectDesktopLineSampleReceiptUtf8LanguageViewController.m in Sources */,
+				88E51BE517799168003CB9BB /* DKAirCashFunctions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0092474A15AFD86400D6A871 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0092474B15AFD86400D6A871 /* en */,
+				88E662CE1C8E975500D98413 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0092475615AFD86400D6A871 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0092475715AFD86400D6A871 /* en */,
+				88E662CD1C8E975500D98413 /* ja */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		88A969A816C0CD100021C88D /* rasterPrinting.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A969A716C0CD100021C88D /* en */,
+				88E662CC1C8E975500D98413 /* ja */,
+			);
+			name = rasterPrinting.xib;
+			sourceTree = "<group>";
+		};
+		DBAF4FC91B53556B00E56A36 /* ProxiPRNTCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBAF4FCA1B53556B00E56A36 /* en */,
+				88E662CB1C8E975500D98413 /* ja */,
+			);
+			name = ProxiPRNTCell.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0092475915AFD86400D6A871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "StarIO SDK";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0092475A15AFD86400D6A871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "StarIO SDK";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0092475C15AFD86400D6A871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOS_SDK/IOS_SDK-Prefix.pch";
+				INFOPLIST_FILE = "IOS_SDK/IOS_SDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.star-m.stariosdk";
+				PRODUCT_NAME = "StarIO SDK";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0092475D15AFD86400D6A871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOS_SDK/IOS_SDK-Prefix.pch";
+				INFOPLIST_FILE = "IOS_SDK/IOS_SDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.star-m.stariosdk";
+				PRODUCT_NAME = "StarIO SDK";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0092473715AFD86400D6A871 /* Build configuration list for PBXProject "IOS_SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0092475915AFD86400D6A871 /* Debug */,
+				0092475A15AFD86400D6A871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0092475B15AFD86400D6A871 /* Build configuration list for PBXNativeTarget "IOS_SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0092475C15AFD86400D6A871 /* Debug */,
+				0092475D15AFD86400D6A871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0092473415AFD86400D6A871 /* Project object */;
+}
